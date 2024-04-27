@@ -16,7 +16,7 @@
 
 
 
-const { france } = require("../framework/france");
+const { aftab } = require("../framework/france");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -25,7 +25,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
-france({
+aftab({
   nomCom: "play",
   categorie: "Search",
   reaction: "💿"
@@ -99,7 +99,7 @@ _*DOWNLOADING...*_\n\n`
 
   
 
-france({
+aftab({
   nomCom: "video",
   categorie: "Search",
   reaction: "🎥"
@@ -145,7 +145,7 @@ _*DOWNLOADING...*_\n\n`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*FLASH-MD*", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*AFTAB-ABBASI*", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
