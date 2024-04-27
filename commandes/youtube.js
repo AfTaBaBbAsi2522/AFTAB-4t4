@@ -1,7 +1,6 @@
 /** 
 
-🇫‌🇱‌🇦‌🇸‌🇭‌-🇲‌🇩‌ 
-
+🇦 🇫 🇹 🇦 🇧 -🇦 🇧 🇧 🇦 🇸 🇮 
   𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 (𝗖) 2024.
  𝗟𝗶𝗰𝗲𝗻𝘀𝗲𝗱 𝘂𝗻𝗱𝗲𝗿 𝘁𝗵𝗲  𝗠𝗜𝗧 𝗟𝗶𝗰𝗲𝗻𝘀𝗲;
  𝗬𝗼𝘂 𝗺𝗮𝘆 𝗻𝗼𝘁 𝘂𝘀𝗲 𝘁𝗵𝗶𝘀 𝗳𝗶𝗹𝗲 𝗲𝘅𝗰𝗲𝗽𝘁 𝗶𝗻 𝗰𝗼𝗺𝗽𝗹𝗶𝗮𝗻𝗰𝗲 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲 𝗟𝗶𝗰𝗲𝗻𝘀𝗲.
@@ -145,7 +144,7 @@ _*DOWNLOADING...*_\n\n`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*FLASH-MD*", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*AFTAB-ABBASI*", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
