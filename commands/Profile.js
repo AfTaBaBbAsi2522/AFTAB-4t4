@@ -1,7 +1,8 @@
 
 /** 
 
-🇫‌🇱‌🇦‌🇸‌🇭‌-🇲‌🇩‌ 
+ 🇦 🇫 🇹 🇦 🇧 -🇦 🇧 🇧 🇦 🇸 🇮 
+ 
 
   𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 (𝗖) 2024.
  𝗟𝗶𝗰𝗲𝗻𝘀𝗲𝗱 𝘂𝗻𝗱𝗲𝗿 𝘁𝗵𝗲  𝗠𝗜𝗧 𝗟𝗶𝗰𝗲𝗻𝘀𝗲;
@@ -16,12 +17,12 @@
 
 
 
-const {france} = require("../framework/france");
+const {aftab} = require("../framework/aftab");
 const conf = require("../set")
 const {jidDecode}=require("@whiskeysockets/baileys")
 
 
-france( {
+aftab( {
   nomCom : "whois",
  categorie : "User",
    },
