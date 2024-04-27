@@ -1,7 +1,7 @@
 
 /** 
 
-🇫‌🇱‌🇦‌🇸‌🇭‌-🇲‌🇩‌ 
+ 🇦 🇫 🇹 🇦 🇧 -🇦 🇧 🇧 🇦 🇸 🇮 
 
   𝗖𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁 (𝗖) 2024.
  𝗟𝗶𝗰𝗲𝗻𝘀𝗲𝗱 𝘂𝗻𝗱𝗲𝗿 𝘁𝗵𝗲  𝗠𝗜𝗧 𝗟𝗶𝗰𝗲𝗻𝘀𝗲;
@@ -19,7 +19,7 @@
 
 
 
-const { france } = require("../framework/france");
+const { aftab } = require("../framework/france");
 const { getytlink, ytdwn } = require("../framework/ytdl-core");
 const yts = require("yt-search");
 const ytdl = require('ytdl-core');
@@ -51,7 +51,7 @@ france({ nomCom: "yts", categorie: "Search", reaction: "✋" }, async (dest, zk,
   }
 });
 
-france({
+aftab({
   nomCom: "ytmp4",
   categorie: "Download",
   reaction: "🎥"
@@ -98,7 +98,8 @@ _*En cours de téléchargement...*_\n\n`
 
     fileStream.on('finish', () => {
       // Envoi du fichier vidéo en utilisant l'URL du fichier local
-      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "Powered by *FLASH-MD*", gifPlayback: false }, { quoted: ms });
+      zk.sendMessage(origineMessage, { video: { url: `./${filename}` }, caption: "Powered by * 🇦 🇫 🇹 🇦 🇧 -🇦 🇧 🇧 🇦 🇸 🇮 
+        *", gifPlayback: false }, { quoted: ms });
 
     });
 
