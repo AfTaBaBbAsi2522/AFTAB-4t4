@@ -2,7 +2,7 @@
   "name":"𝗔𝗙𝗧𝗔𝗕 𝗔𝗛𝗠𝗔𝗗",
   "description":"An easy and simple WhatsApp bot developed by France King",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
+  "logo":"https://i.ibb.co/f2VtdRs/93d81e1d9c229e59.jpg",
   "repository":"https://github.com/franceking1/Flash-Md",
   "succes_url":"/",
   "stack":"container",
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"FLASH-MD",
+      "value":"𝗔𝗙𝗧𝗔𝗕 𝗔𝗛𝗠𝗔𝗗 💗",
       "required":false
 
     } ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
 	,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": " 𝗔𝗙𝗧𝗔𝗕 𝗔𝗛𝗠𝗔𝗗 💗"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254757835036"
+    "value": "923252200592"
   },
     "WARN_COUNT":
   {
